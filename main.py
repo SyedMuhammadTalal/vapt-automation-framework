@@ -43,5 +43,4 @@ Reports Attached.
                 report_files["json"]
             ]
         )
-
-        print("✔ Email Sent Successfully"):
+        print("Email Sent Successfully")
