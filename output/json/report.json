@@ -1,0 +1,30 @@
+{
+    "results": [
+        {
+            "port": 135,
+            "service": "RPC",
+            "risk": "HIGH",
+            "score": 9
+        },
+        {
+            "port": 445,
+            "service": "SMB",
+            "risk": "HIGH",
+            "score": 9
+        },
+        {
+            "port": 902,
+            "service": "UNKNOWN",
+            "risk": "LOW",
+            "score": 2
+        },
+        {
+            "port": 912,
+            "service": "UNKNOWN",
+            "risk": "LOW",
+            "score": 2
+        }
+    ],
+    "average_score": 5.5,
+    "overall_risk": "MEDIUM"
+}

@@ -1,0 +1,154 @@
+2026-06-07 05:46:54,602 - INFO - Starting scan on 127.0.0.1
+2026-06-07 05:46:55,697 - INFO - OPEN PORT: 135
+2026-06-07 05:46:58,797 - INFO - OPEN PORT: 445
+2026-06-07 05:47:03,043 - INFO - OPEN PORT: 902
+2026-06-07 05:47:04,056 - INFO - OPEN PORT: 912
+2026-06-07 05:47:06,156 - INFO - Scan complete. Open ports: [135, 445, 902, 912]
+2026-06-07 05:50:22,135 - INFO - Starting scan on 127.0.0.1
+2026-06-07 05:50:23,239 - INFO - OPEN PORT: 135
+2026-06-07 05:50:26,437 - INFO - OPEN PORT: 445
+2026-06-07 05:50:30,783 - INFO - OPEN PORT: 902
+2026-06-07 05:50:31,800 - INFO - OPEN PORT: 912
+2026-06-07 05:50:33,891 - INFO - Scan complete. Open ports: [135, 445, 902, 912]
+2026-06-07 05:50:33,892 - INFO - Starting vulnerability analysis...
+2026-06-07 05:50:33,897 - INFO - Port 135 -> Service: RPC, Risk: HIGH
+2026-06-07 05:50:33,897 - INFO - Port 445 -> Service: SMB, Risk: HIGH
+2026-06-07 05:50:33,898 - INFO - Port 902 -> Service: UNKNOWN, Risk: LOW
+2026-06-07 05:50:33,898 - INFO - Port 912 -> Service: UNKNOWN, Risk: LOW
+2026-06-07 05:50:33,899 - INFO - Vulnerability scan completed.
+2026-06-07 05:51:22,842 - INFO - Starting scan on 127.0.0.1
+2026-06-07 05:51:23,921 - INFO - OPEN PORT: 135
+2026-06-07 05:51:27,223 - INFO - OPEN PORT: 445
+2026-06-07 05:51:31,583 - INFO - OPEN PORT: 902
+2026-06-07 05:51:32,611 - INFO - OPEN PORT: 912
+2026-06-07 05:51:34,691 - INFO - Scan complete. Open ports: [135, 445, 902, 912]
+2026-06-07 05:51:34,692 - INFO - Starting vulnerability analysis...
+2026-06-07 05:51:34,693 - INFO - Port 135 -> Service: RPC, Risk: HIGH
+2026-06-07 05:51:34,693 - INFO - Port 445 -> Service: SMB, Risk: HIGH
+2026-06-07 05:51:34,694 - INFO - Port 902 -> Service: UNKNOWN, Risk: LOW
+2026-06-07 05:51:34,694 - INFO - Port 912 -> Service: UNKNOWN, Risk: LOW
+2026-06-07 05:51:34,695 - INFO - Vulnerability scan completed.
+2026-06-07 05:51:34,695 - INFO - Calculating risk score...
+2026-06-07 05:51:34,696 - INFO - Port 135 -> Score: 9
+2026-06-07 05:51:34,696 - INFO - Port 445 -> Score: 9
+2026-06-07 05:51:34,697 - INFO - Port 902 -> Score: 2
+2026-06-07 05:51:34,698 - INFO - Port 912 -> Score: 2
+2026-06-07 05:51:34,702 - INFO - FINAL RISK SCORE: 5.50 (MEDIUM)
+2026-06-07 05:52:26,515 - INFO - Starting scan on 127.0.0.1
+2026-06-07 05:52:27,568 - INFO - OPEN PORT: 135
+2026-06-07 05:52:30,850 - INFO - OPEN PORT: 445
+2026-06-07 05:52:35,268 - INFO - OPEN PORT: 902
+2026-06-07 05:52:36,280 - INFO - OPEN PORT: 912
+2026-06-07 05:52:38,371 - INFO - Scan complete. Open ports: [135, 445, 902, 912]
+2026-06-07 05:52:38,372 - INFO - Starting vulnerability analysis...
+2026-06-07 05:52:38,373 - INFO - Port 135 -> Service: RPC, Risk: HIGH
+2026-06-07 05:52:38,373 - INFO - Port 445 -> Service: SMB, Risk: HIGH
+2026-06-07 05:52:38,374 - INFO - Port 902 -> Service: UNKNOWN, Risk: LOW
+2026-06-07 05:52:38,375 - INFO - Port 912 -> Service: UNKNOWN, Risk: LOW
+2026-06-07 05:52:38,375 - INFO - Vulnerability scan completed.
+2026-06-07 05:52:38,376 - INFO - Calculating risk score...
+2026-06-07 05:52:38,377 - INFO - Port 135 -> Score: 9
+2026-06-07 05:52:38,378 - INFO - Port 445 -> Score: 9
+2026-06-07 05:52:38,378 - INFO - Port 902 -> Score: 2
+2026-06-07 05:52:38,379 - INFO - Port 912 -> Score: 2
+2026-06-07 05:52:38,380 - INFO - FINAL RISK SCORE: 5.50 (MEDIUM)
+2026-06-07 05:52:38,381 - INFO - Generating reports...
+2026-06-07 05:52:38,385 - INFO - CSV report saved at output\scans\report.csv
+2026-06-07 05:52:38,389 - INFO - JSON report saved at output\json\report.json
+2026-06-07 05:52:38,390 - INFO - Report generation completed.
+2026-06-07 06:00:01,526 - INFO - Starting scan on 127.0.0.1
+2026-06-07 06:00:02,577 - INFO - OPEN PORT: 135
+2026-06-07 06:00:05,751 - INFO - OPEN PORT: 445
+2026-06-07 06:00:10,942 - INFO - OPEN PORT: 902
+2026-06-07 06:00:10,950 - INFO - OPEN PORT: 912
+2026-06-07 06:00:13,049 - INFO - Scan completed. Open ports: [135, 445, 902, 912]
+2026-06-07 06:00:13,050 - INFO - Starting vulnerability analysis...
+2026-06-07 06:00:13,050 - INFO - Port 135 -> RPC (HIGH)
+2026-06-07 06:00:13,051 - INFO - Port 445 -> SMB (HIGH)
+2026-06-07 06:00:13,052 - INFO - Port 902 -> UNKNOWN (LOW)
+2026-06-07 06:00:13,052 - INFO - Port 912 -> UNKNOWN (LOW)
+2026-06-07 06:00:13,053 - INFO - Calculating risk score...
+2026-06-07 06:00:13,054 - INFO - Port 135 score: 9
+2026-06-07 06:00:13,054 - INFO - Port 445 score: 9
+2026-06-07 06:00:13,055 - INFO - Port 902 score: 2
+2026-06-07 06:00:13,056 - INFO - Port 912 score: 2
+2026-06-07 06:00:13,057 - INFO - Generating reports...
+2026-06-07 06:00:13,063 - INFO - Reports generated successfully
+2026-06-07 06:09:11,091 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-07 06:09:11,091 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-07 06:09:11,094 - INFO -  * Restarting with stat
+2026-06-07 06:09:12,169 - WARNING -  * Debugger is active!
+2026-06-07 06:09:12,175 - INFO -  * Debugger PIN: 125-553-181
+2026-06-07 06:09:53,833 - INFO - 127.0.0.1 - - [07/Jun/2026 06:09:53] "GET / HTTP/1.1" 200 -
+2026-06-07 06:09:53,914 - INFO - 127.0.0.1 - - [07/Jun/2026 06:09:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-07 06:09:56,786 - INFO - Starting scan on 127.0.0.1
+2026-06-07 06:09:57,873 - INFO - OPEN PORT: 135
+2026-06-07 06:09:58,547 - INFO - Starting scan on 127.0.0.1
+2026-06-07 06:09:59,664 - INFO - OPEN PORT: 135
+2026-06-07 06:10:01,114 - INFO - OPEN PORT: 445
+2026-06-07 06:10:02,916 - INFO - OPEN PORT: 445
+2026-06-07 06:10:06,486 - INFO - OPEN PORT: 902
+2026-06-07 06:10:06,493 - INFO - OPEN PORT: 912
+2026-06-07 06:10:08,262 - INFO - OPEN PORT: 902
+2026-06-07 06:10:08,270 - INFO - OPEN PORT: 912
+2026-06-07 06:10:08,588 - INFO - Scan completed. Open ports: [135, 135, 445, 445, 902, 912, 902, 912]
+2026-06-07 06:10:08,589 - INFO - Starting vulnerability analysis...
+2026-06-07 06:10:08,590 - INFO - Port 135 -> RPC (HIGH)
+2026-06-07 06:10:08,591 - INFO - Port 135 -> RPC (HIGH)
+2026-06-07 06:10:08,591 - INFO - Port 445 -> SMB (HIGH)
+2026-06-07 06:10:08,592 - INFO - Port 445 -> SMB (HIGH)
+2026-06-07 06:10:08,593 - INFO - Port 902 -> UNKNOWN (LOW)
+2026-06-07 06:10:08,593 - INFO - Port 912 -> UNKNOWN (LOW)
+2026-06-07 06:10:08,594 - INFO - Port 902 -> UNKNOWN (LOW)
+2026-06-07 06:10:08,595 - INFO - Port 912 -> UNKNOWN (LOW)
+2026-06-07 06:10:08,595 - INFO - Calculating risk score...
+2026-06-07 06:10:08,596 - INFO - Port 135 score: 9
+2026-06-07 06:10:08,597 - INFO - Port 135 score: 9
+2026-06-07 06:10:08,598 - INFO - Port 445 score: 9
+2026-06-07 06:10:08,598 - INFO - Port 445 score: 9
+2026-06-07 06:10:08,599 - INFO - Port 902 score: 2
+2026-06-07 06:10:08,600 - INFO - Port 912 score: 2
+2026-06-07 06:10:08,600 - INFO - Port 902 score: 2
+2026-06-07 06:10:08,601 - INFO - Port 912 score: 2
+2026-06-07 06:10:08,603 - INFO - 127.0.0.1 - - [07/Jun/2026 06:10:08] "GET /scan HTTP/1.1" 200 -
+2026-06-07 06:10:10,366 - INFO - Scan completed. Open ports: [135, 135, 445, 445, 902, 912, 902, 912]
+2026-06-07 06:10:10,367 - INFO - Starting vulnerability analysis...
+2026-06-07 06:10:10,368 - INFO - Port 135 -> RPC (HIGH)
+2026-06-07 06:10:10,368 - INFO - Port 135 -> RPC (HIGH)
+2026-06-07 06:10:10,369 - INFO - Port 445 -> SMB (HIGH)
+2026-06-07 06:10:10,369 - INFO - Port 445 -> SMB (HIGH)
+2026-06-07 06:10:10,370 - INFO - Port 902 -> UNKNOWN (LOW)
+2026-06-07 06:10:10,370 - INFO - Port 912 -> UNKNOWN (LOW)
+2026-06-07 06:10:10,371 - INFO - Port 902 -> UNKNOWN (LOW)
+2026-06-07 06:10:10,371 - INFO - Port 912 -> UNKNOWN (LOW)
+2026-06-07 06:10:10,372 - INFO - Calculating risk score...
+2026-06-07 06:10:10,373 - INFO - Port 135 score: 9
+2026-06-07 06:10:10,374 - INFO - Port 135 score: 9
+2026-06-07 06:10:10,374 - INFO - Port 445 score: 9
+2026-06-07 06:10:10,375 - INFO - Port 445 score: 9
+2026-06-07 06:10:10,375 - INFO - Port 902 score: 2
+2026-06-07 06:10:10,376 - INFO - Port 912 score: 2
+2026-06-07 06:10:10,377 - INFO - Port 902 score: 2
+2026-06-07 06:10:10,378 - INFO - Port 912 score: 2
+2026-06-07 06:10:10,379 - INFO - 127.0.0.1 - - [07/Jun/2026 06:10:10] "GET /scan HTTP/1.1" 200 -
+2026-06-07 06:20:11,604 - INFO -  * Detected change in 'D:\\Mega\\docs\\project\\vapt_framework\\utils\\helpers.py', reloading
+2026-06-07 06:20:11,688 - INFO -  * Restarting with stat
+2026-06-07 06:23:45,819 - INFO - Starting scan on 127.0.0.1
+2026-06-07 06:23:46,860 - INFO - OPEN PORT: 135
+2026-06-07 06:23:49,980 - INFO - OPEN PORT: 445
+2026-06-07 06:23:55,219 - INFO - OPEN PORT: 902
+2026-06-07 06:23:55,226 - INFO - OPEN PORT: 912
+2026-06-07 06:23:57,329 - INFO - Scan completed. Open ports: [135, 445, 902, 912]
+2026-06-07 06:23:57,330 - INFO - Starting vulnerability analysis...
+2026-06-07 06:23:57,330 - INFO - Port 135 -> RPC (HIGH)
+2026-06-07 06:23:57,331 - INFO - Port 445 -> SMB (HIGH)
+2026-06-07 06:23:57,332 - INFO - Port 902 -> UNKNOWN (LOW)
+2026-06-07 06:23:57,332 - INFO - Port 912 -> UNKNOWN (LOW)
+2026-06-07 06:23:57,333 - INFO - Calculating risk score...
+2026-06-07 06:23:57,333 - INFO - Port 135 score: 9
+2026-06-07 06:23:57,334 - INFO - Port 445 score: 9
+2026-06-07 06:23:57,335 - INFO - Port 902 score: 2
+2026-06-07 06:23:57,335 - INFO - Port 912 score: 2
+2026-06-07 06:23:57,336 - INFO - Generating reports...
+2026-06-07 06:23:57,342 - INFO - Reports generated successfully
