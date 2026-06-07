@@ -24,6 +24,6 @@ This project simulates a real-world security assessment pipeline used in cyberse
 - Email Alert System (SMTP)
 - Advanced Features
 -Threat Detection Module
-📁 Log Analysis System
-⚙️ Modular Architecture (Production-style design)
-🧩 Config-driven system
+Log Analysis System
+Modular Architecture (Production-style design)
+Config-driven system
