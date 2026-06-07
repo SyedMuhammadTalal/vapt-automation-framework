@@ -44,4 +44,4 @@ Reports Attached.
             ]
         )
 
-        print("✔ Email Sent Successfully")
+        print("✔ Email Sent Successfully"):
